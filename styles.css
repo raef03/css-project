@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav{
+  display: flex; 
+}
+nav h1{text-align: left;
+  color:rosybrown;
+  text-overflow: ellipsis;
+  font-style:oblique;
+  font-family:'Helvetica Neue';
+  font-size: xx-large;
+}
+
+ul{
+  display: flex;
+  margin-left: 65%;
+}
+ul li{
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+ul li a {
+  color: rosybrown;
+  text-decoration: none;
+  transition: 0.2s;
+}
+ul li a:hover{
+  color:lightcoral;
+}
+
+
+ 
+
+body {
+  background:rgb(63, 17, 53)
+}
+li{
+  display: inline;
+}
+ul{display: flex;
+  margin-left: 65%;}
+  
+
+
+h2{text-align: center;
+  color:rgb(233, 208, 184);
+  font-size:x-large;
+  font-style:inherit;
+  font-family:Helvetica;
+}
+
+  iframe {
+    width: 550px;
+    height: 550px;
+    margin: 0 auto;
+  border: 1px solid rgb(87, 3, 43);
+ 
+}
+
+section{text-align: center;}
+
+div{
+text-align: center;}
+video{border:rgb(87, 3, 43);
+}
+
+body{text-align: center;
+}
+h4{text-align: center;
+font-family:  'Segoe UI';
+color:rgb(138, 91, 4);
+font-size:xx-large;
+font-style: italic;}
+legend {
+  color: white;
+  font-family: cursive;
+  font-size: 25px;     }
+fieldset {
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 30px;
+  font-size: 13px;
+  color: white;
+  background-color: black;
+  transition: 0.4s;
+}
+label {
+  color: rgb(228, 228, 228);
+  font-size: 13px;
+  font-family: cursive;
+}
+label, input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+label {
+  cursor: default;
+}
+footer {
+ 
+  font-family: 'Prompt', sans-serif; ;
+  background-color: #3f1e38;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+footer h5{
+  
+    color: rgb(68, 59, 20);
+    margin-left: 10px;
+    padding-top: 10px;
+    font-family:  sans-serif;
+    font-size: xx-large ;
+}
+
+footer h3{
+  color: white;
+  margin-right: 20px;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-family: 'Prompt' ;
+  font-style: oblique;
+  font-size:medium;
+}
+footer .informations{
+  margin-bottom: 5px;
+}
+footer .social{
+  margin-top: 50px;
+}.social a{
+  text-decoration: none;
+}.social a img{
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: 0.3s;
+}.social a img:hover{
+  transform:initial
+}
+
+
